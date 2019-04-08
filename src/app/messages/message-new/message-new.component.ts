@@ -40,7 +40,7 @@ export class MessageNewComponent implements OnInit {
   }
 
   getDepartmentName(department: object) {
-    return department ? department[name] : undefined;
+    return department ? department['name'] : undefined;
   }
 
 }
