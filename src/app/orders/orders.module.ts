@@ -12,7 +12,10 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
 import { MatMomentDateModule } from '@angular/material-moment-adapter';
+import {MatCheckboxModule } from '@angular/material/checkbox';
 
 
 @NgModule({
@@ -26,6 +29,8 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
     MatCardModule, MatDatepickerModule,
     MatIconModule, MatTabsModule,
     MatInputModule, MatMomentDateModule,
+    MatTableModule, MatSortModule,
+    MatCheckboxModule,
 
 
   ]
